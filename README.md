@@ -1,0 +1,1 @@
+This project is a clone version of the intuit sign up page using HTML/CSS only.
