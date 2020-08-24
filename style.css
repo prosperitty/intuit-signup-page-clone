@@ -6,8 +6,7 @@ body {
 
 nav {
     height: 40px;
-    padding: 8px 30px;
-    border: 1px solid black
+    padding: 8px 10px;
 }
 
 #sign-in-container {
@@ -15,8 +14,6 @@ nav {
     float: right;
 
     font-size: 13px;
-
-    border: 1px solid black;
 }
 
 button {
@@ -28,7 +25,7 @@ button {
     background-color: #0077c5;
     box-shadow: 5%;
     border-radius: 5px;
-    border: none
+    border: none;
 }
 
 main {
@@ -37,7 +34,10 @@ main {
 }
 
 header {
+    color: #8d9095;
     font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -48,6 +48,8 @@ h1 {
     width: 350px;
     margin: 0 auto;
     padding: 15px 30px;
+
+    font-size: 0.9rem;
 
     border: 1px solid black;
     border-radius: 2px;
@@ -60,8 +62,13 @@ p {
 
 input {
     display: block;
-    /* width: 400px;     */
-    padding: 0;
+    width: 330px;   
+    height: 32px; 
+    padding: 0 8px;
+    margin-top: 10px;
+
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 form {
@@ -70,11 +77,25 @@ form {
 
 fieldset {
     width: 100%;
-    margin: 0; 
+    margin: 30px 0 0 0; 
     padding: 0;
+    border: none;
 }
 
 #create-account-btn {
     width: 100%;
     height: 40px;
+    padding: 0;
+    margin: 30px 0;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none
 }
