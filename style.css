@@ -4,6 +4,12 @@ body {
     background-color: #eceef1;
 }
 
+#warning {
+    display: inline;
+    color: red;
+    text-decoration: underline;
+}
+
 nav {
     height: 40px;
     padding: 8px 10px;
